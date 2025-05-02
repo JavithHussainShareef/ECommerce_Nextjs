@@ -1,36 +1,57 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Ecommerce Website
+
+## Project Overview
+
+This project is a modern, full-featured eCommerce web application built using **Next.js**. It provides a seamless shopping experience with a fast, SEO-friendly frontend and powerful backend features such as product browsing, cart management, checkout, and user authentication.
+
+## Project Domain
+E-commerce / Web Development
+
+## Objective
+
+The objective of this project is to develop a highly responsive and scalable online store using cutting-edge technologies. It aims to provide a user-friendly shopping experience for customers and easy product management for administrators.
+
+## Features
+
+- 🛍️ **Product Listing** – Displays available products with details like image, price, and description.
+- 🔍 **Search & Filter** – Allows users to search for products and filter them by category or price.
+- 🛒 **Shopping Cart** – Users can add/remove items, update quantities, and view total cost.
+- 🔐 **Authentication** – Secure login and registration system for users and admins.
+- 💳 **Checkout Process** – Simulated order placement with order summary.
+- 📦 **Order Management** – View placed orders and manage order status.
+- 📱 **Responsive Design** – Fully optimized for desktop and mobile devices.
+
+## Tools & Technologies Used
+
+- **Next.js** – React-based framework for SSR and static site generation.
+- **React.js** – UI library for building components.
+- **Tailwind CSS** – Utility-first CSS framework for responsive styling.
+- **Node.js** – JavaScript runtime for backend logic (if using a custom API).
+- **MongoDB / Firebase** – Database for storing products, orders, and users.
+- **Stripe / Razorpay (optional)** – Payment gateway integration for checkout.
+- **Vercel** – Hosting platform for seamless deployment.
 
 ## Getting Started
 
-First, run the development server:
+Follow these steps to run the project locally:
+
+### Prerequisites
+
+- Node.js and npm/yarn installed
+- MongoDB/Firebase instance (if backend is integrated)
+- Git
+
+### Installation
 
 ```bash
+# Clone the repository
+git clone https://github.com/yourusername/ecommerce-website.git
+
+# Navigate to the project directory
+cd ecommerce-website
+
+# Install dependencies
+npm install
+
+# Run the development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [process.env.NEXT_PUBLIC_SITE_URL](process.env.NEXT_PUBLIC_SITE_URL) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
